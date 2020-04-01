@@ -1,0 +1,14 @@
+server:
+  compression:
+    enabled: false
+  port: 80
+  servlet:
+    context-path: /api/v1
+---
+spring:
+  profiles: test
+---
+spring:
+  profiles: dev
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
