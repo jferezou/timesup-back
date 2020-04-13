@@ -2,12 +2,12 @@
 This project aims at implementing the backend mechanisms for a time's up game
 
 ## Table des matières
-- [Time's up back-end](#time's-up-back-end)
+- [Time's up back-end](#times-up-back-end)
   - [Table des matières](#table-des-matières)
   - [Bien démarrer](#bien-démarrer)
     - [Prérequis](#prérequis)
     - [Comment lancer un build](#comment-lancer-un-build)
-    - [Comment lancer l'application](#comment-lancer-l'application)
+    - [Comment lancer l'application](#comment-lancer-lapplication)
   - [TODO](#todo)
 
 ## Bien démarrer
