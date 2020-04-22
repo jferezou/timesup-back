@@ -35,3 +35,14 @@ Une fois l'application lancée, un swagger est disponible à l'adresse :
 - swagger : :warning: A relire
 - TUs à init
 - File
+
+# générer image docker
+
+construire le jar avec la tâche grade bootJar
+
+créer le contrneur :
+sudo docker build --rm -t timesup_back .
+
+push sur le repo :
+sudo docker tag timesup_back julienferezou/timesup_back:latest
+sudo docker push julienferezou/timesup_back:latest
